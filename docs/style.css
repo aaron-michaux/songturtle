@@ -1,0 +1,22 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url("assets/song-turtle.jpg");
+    background-size: cover;       /* fill the screen, crop if needed */
+    background-position: center;  /* center the image */
+    background-repeat: no-repeat; /* don't tile */
+}
+
+.visually-hidden {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
